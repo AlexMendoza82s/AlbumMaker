@@ -1,0 +1,107 @@
+
+body {
+background-image: url('https://i.pinimg.com/originals/7c/99/be/7c99beac4554657d837c1f7b35a0145f.jpg');
+background-repeat: no-repeat;
+background-size: cover;
+background-attachment: fixed;
+opacity: 0.9;
+}
+
+.matrix {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.item {
+  width: 100px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.matrix .item {
+  padding: 10px;
+}
+
+.card:hover {
+  border: 2px solid red;
+  cursor: pointer;
+}
+.custom-card:hover {
+  border: 0px solid red;
+  cursor: default;
+}
+.custom-card {
+  border: 0px solid red;
+  cursor: default;
+}
+
+.card-img-wrapper {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.card-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.card.has-image {
+  background-color: white;
+}
+
+.custom-tab {
+  width: 500px;
+  height: 300px;
+  border: 1px solid #ccc;  
+  border-Radius: '5px';
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
