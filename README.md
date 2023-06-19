@@ -1,8 +1,8 @@
 # Descripcion
 Proyecto elaborado con REACT y estilizado con bootstrap, permite visualizar una matriz de 3x3 que permite mostrar arrastrar imagenes desde el escritorio o desde una carpeta especifica, muestra las imagenes en la matriz y permite ejecutar las opciones de 
-## 1.- Eliminar la imagen cargada
-## 2.- Ordenar o mover la imagen cargada hacia otra posicion
-## 3.- Intercambiar los lugares con otra imagen cargada
+1.- Eliminar la imagen cargada
+2.- Ordenar o mover la imagen cargada hacia otra posicion
+3.- Intercambiar los lugares con otra imagen cargada
 
 Se controlan los siguientes aspectos
 1.- Solo se pueden cargar imagenes
