@@ -1,0 +1,18 @@
+
+1.- Crear servicio EC2, asignar los recursos necesario, la aplicacion sirve en el puerto 8080 no olvide habilitarlo
+	1.- Ejecutar en su consola de aws  sudo apt update && sudo apt upgrade
+	2.- Instalar docker sudo apt install docker
+	3.- Instalar docker compose sudo apt install docker-compose
+	4.- ejecutar comandos
+		mkdir album-maker
+		cd album-maker	
+	5.- Copiar o crear archivos de docker compose
+		Dockerfile-app
+		Dockerfile-nginx
+		docker-compose.yml
+		nginx.conf
+	6.- Ejecutar sudo docker-compose up -d
+	7.- Ingrese a su servidor (IP:8080)
+
+
+
